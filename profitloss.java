@@ -8,9 +8,11 @@ public class profitloss {
         double CP = sc.nextDouble();
         if(SP > CP){
             System.out.println("its profit of " + (SP-CP));
+            System.out.println("Profit % = " + ((SP - CP) / CP * 100));
         }
         else if (SP < CP){
             System.out.println("its loss of " + (CP-SP));
+            System.out.println("Loss % = " + ((CP - SP) / CP * 100));
         }
         else{
             System.out.println("see again");
