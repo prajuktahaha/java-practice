@@ -8,6 +8,8 @@ public class useridentity {
         System.out.println("Enter the age of the user : ");
         int age = sc.nextInt();
         UserF(age);
+        System.out.println("The name of the user is " + UserF(name));
+        System.out.println("The age of the user is " + UserF(age));
     }
     public static String UserF( String name){
         return name;
