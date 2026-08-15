@@ -4,13 +4,13 @@ public class greetingsmo {
         Scanner sc = new Scanner(System.in);
         SayHi();
         System.out.println("Enter the name u want to greet");
-        String Name = sc.nextLine();
-        System.out.println("Hi " + Name);
+        String name = sc.nextLine();
+        SayHi(name);
     }
     public static void SayHi(){
         System.out.println("Hi");
     }
-    public static void Name(String a){
-        return;
+    public static void SayHi(String name){
+        System.out.println("Hi " + name);
     }
 }
