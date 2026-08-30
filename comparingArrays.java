@@ -24,8 +24,14 @@ public class comparingArrays {
         for(int i = 0 ; i < N3 ; i++){
             Numbers3 [i] = sc.nextInt();
         }
-        if(Arrays.equals (Numbers1 , Numbers2) && Arrays.equals (Numbers2 , Numbers3)){
-            System.out.println("True");
+        if(Arrays.equals (Numbers1 , Numbers2)){
+            System.out.println("1 and 2 matched");
+        }
+        if(Arrays.equals (Numbers2 , Numbers3)){
+            System.out.println("2  and 3 matched");
+        }
+        if(Arrays.equals (Numbers1 , Numbers3)){
+            System.out.println("1 and 3 matched");
         }
         else{
             System.out.println("False");
